@@ -22,9 +22,9 @@
   </div>
 
   <header class="site-header is-scrolled">
-    <a class="logo" href="index.html">
-      <img src="assets/images/logo.png" alt="Straite to Hale logo" />
-      <span>Straite to Hale</span>
+    <a class="logo" href="index.html" aria-label="Straite to Hale — home">
+      <img src="assets/images/logo.png" alt="" width="56" height="56" decoding="async" aria-hidden="true" />
+      <span class="logo-wordmark"><span class="logo-line">Straite to</span> <span class="logo-line">Hale</span></span>
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
       <span class="nav-toggle-bar"></span>
@@ -33,7 +33,13 @@
     <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="index.html#videos">Videos</a>
       <a href="photos.html">Photos</a>
-      <a href="index.html#about">About</a>
+      <details class="nav-dropdown">
+        <summary class="nav-dropdown-summary">About</summary>
+        <div class="nav-dropdown-panel" role="group" aria-label="About">
+          <a href="index.html#about">What we do</a>
+          <a href="index.html#how-we-build">How we build</a>
+        </div>
+      </details>
       <a href="index.html#contact">Contact</a>
       <a href="https://www.instagram.com/straite_to_hale_productions" target="_blank" rel="noopener noreferrer">Instagram</a>
       <a href="for-sale.html">For Sale</a>

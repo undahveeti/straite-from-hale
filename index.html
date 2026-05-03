@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Straite to Hale Productions builds immersive sets, animatronics, and event environments." />
+  <meta name="description" content="Straite to Hale Productions — turning your dreams and nightmares into reality. Immersive sets, animatronics, and themed environments." />
   <meta name="theme-color" content="#0a070c" />
   <meta property="og:title" content="Straite to Hale Productions" />
-  <meta property="og:description" content="Custom scenic builds, animatronics, and immersive themed environments for attractions and events." />
+  <meta property="og:description" content="Turning your dreams and nightmares into reality — custom scenic builds, animatronics, and immersive environments." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/images/hero-poster.jpg" />
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="Straite to Hale Productions" />
-  <meta property="twitter:description" content="Custom scenic builds, animatronics, and immersive themed environments." />
+  <meta property="twitter:description" content="Turning your dreams and nightmares into reality." />
   <meta property="twitter:image" content="assets/images/hero-poster.jpg" />
   <title>Straite to Hale Productions</title>
   <link rel="icon" type="image/png" href="assets/images/logo.png" />
@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Creepster&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+<body id="top">
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="noise" aria-hidden="true"></div>
   <div class="glow-orbs" aria-hidden="true">
@@ -30,9 +30,9 @@
   </div>
 
   <header class="site-header">
-    <a class="logo" href="#top">
-      <img src="assets/images/logo.png" alt="Straite to Hale logo" />
-      <span>Straite to Hale</span>
+    <a class="logo" href="#top" aria-label="Straite to Hale — home">
+      <img src="assets/images/logo.png" alt="" width="56" height="56" decoding="async" aria-hidden="true" />
+      <span class="logo-wordmark"><span class="logo-line">Straite to</span> <span class="logo-line">Hale</span></span>
     </a>
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
       <span class="nav-toggle-bar"></span>
@@ -41,7 +41,13 @@
     <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="#videos">Videos</a>
       <a href="photos.html">Photos</a>
-      <a href="#about">About</a>
+      <details class="nav-dropdown">
+        <summary class="nav-dropdown-summary">About</summary>
+        <div class="nav-dropdown-panel" role="group" aria-label="About">
+          <a href="#about">What we do</a>
+          <a href="#how-we-build">How we build</a>
+        </div>
+      </details>
       <a href="#contact">Contact</a>
       <a href="https://www.instagram.com/straite_to_hale_productions" target="_blank" rel="noopener noreferrer">Instagram</a>
       <a href="for-sale.html">For Sale</a>
@@ -67,15 +73,15 @@
       </div>
       <div class="hero-inner">
         <p class="eyebrow">Event set design &amp; fabrication</p>
-        <h1 class="hero-title">Turning your dreams...or nightmares into reality</h1>
+        <h1 class="hero-title">Turning your dreams and nightmares into reality</h1>
         <p class="hero-lede">
           Custom scenic builds, animatronics, and immersive environments for haunted attractions,
-          escape rooms, and live events.
+          escape rooms, and live events — from first sketch through install and show nights.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">View projects</a>
-          <a class="btn btn-ghost" href="#contact">Start a quote</a>
-          <a class="btn btn-ghost" href="for-sale.html">View for sale items</a>
+          <a class="btn btn-primary" href="#videos">Watch videos</a>
+          <a class="btn btn-ghost" href="#about">Explore capabilities</a>
+          <a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Quote%20Request%20-%20Straite%20to%20Hale">Email a quote</a>
         </div>
       </div>
       <div class="hero-scroll-hint" aria-hidden="true">
@@ -84,159 +90,67 @@
       </div>
     </section>
 
-    <section class="section trust-strip">
-      <article class="trust-pill">
-        <p class="trust-stat">Custom Fabrication</p>
-        <p class="trust-copy">Outdoor, indoor, and modular scenic systems built for repeat seasonal use.</p>
-      </article>
-      <article class="trust-pill">
-        <p class="trust-stat">Animatronic Integration</p>
-        <p class="trust-copy">Character rigs and motion moments tuned for guest-facing show impact.</p>
-      </article>
-      <article class="trust-pill">
-        <p class="trust-stat">Event-Ready Delivery</p>
-        <p class="trust-copy">Concept-to-install support with lead-time planning and practical logistics.</p>
-      </article>
-    </section>
-
     <section id="about" class="section">
       <div class="section-head">
         <h2 class="section-title">About Straite to Hale</h2>
-        <p class="section-lede">Specializing in immersive set design for attractions and events, with real-world build experience across themed environments.</p>
+        <p class="section-lede">We specialize in immersive set design for haunted mazes, attractions, and events — outdoor and indoor scenery, puzzle hardware, animatronic gags, and finish work that holds up to guests and cameras.</p>
       </div>
       <div class="service-grid">
         <article class="service-card">
           <h3>Outdoor Sets</h3>
-          <p>Weather-ready scenes, facades, and practical effects designed for high guest throughput.</p>
+          <p>Facades, queue barns, and exterior scenes engineered for weather, night lighting, and high throughput. Modular thinking for strike and storage between seasons.</p>
         </article>
         <article class="service-card">
           <h3>Indoor Sets</h3>
-          <p>Dense, cinematic buildouts for walkthroughs, queue zones, and immersive interiors.</p>
+          <p>Walkthrough rooms, corridors, and dense scenic layers built for sightlines, scare timing, and actor paths — tuned for both guest experience and crew operations.</p>
         </article>
         <article class="service-card">
           <h3>Escape Room Puzzles</h3>
-          <p>Story-driven puzzle mechanics, reset-friendly systems, and themed prop integration.</p>
+          <p>Story-led puzzle props, reset-friendly mechanisms, and themed integrations that stay reliable night after night.</p>
         </article>
         <article class="service-card">
           <h3>Animatronics</h3>
-          <p>Motion systems, character rigs, and reveal moments tuned for timed scare beats.</p>
+          <p>Pop figures, simple motion beats, and reveal gags coordinated with audio and lighting so the moment reads clearly in the maze.</p>
         </article>
         <article class="service-card">
           <h3>Custom Paint &amp; Textures</h3>
-          <p>Aging, weathering, and texture treatments to match story tone and camera closeups.</p>
+          <p>Aging, stone, wood grain, metal corrosion, and scenic treatments sized for guest proximity and photo/video capture.</p>
         </article>
         <article class="service-card">
           <h3>Concept to Install</h3>
-          <p>From sketch and fabrication to delivery, install support, and post-show updates.</p>
+          <p>Design support, fabrication, delivery, on-site install, and tune-up visits so the environment is show-ready when doors open.</p>
         </article>
       </div>
     </section>
 
-    <section class="section category-showcase">
-      <div class="section-head">
-        <h2 class="section-title">Featured build categories</h2>
-        <p class="section-lede">Category-focused visuals and clips pulled directly from your portfolio archive.</p>
-      </div>
-
-      <article class="category-block">
-        <div class="category-copy">
-          <h3>Indoor Sets</h3>
-          <p>Scene construction and atmospheric interior environments designed for immersive guest walkthroughs.</p>
-        </div>
-        <div class="category-media-grid">
-          <a href="assets/images/indoor-1.jpg" data-lightbox><img src="assets/images/indoor-1.jpg" alt="Indoor set image 1" loading="lazy" /></a>
-          <a href="assets/images/indoor-2.jpg" data-lightbox><img src="assets/images/indoor-2.jpg" alt="Indoor set image 2" loading="lazy" /></a>
-          <a href="assets/images/indoor-3.jpg" data-lightbox><img src="assets/images/indoor-3.jpg" alt="Indoor set image 3" loading="lazy" /></a>
-        </div>
-        <div class="category-video film-frame">
-          <video class="feature-video" controls playsinline poster="assets/images/indoor-2.jpg">
-            <source src="assets/videos/indoor-sets.mp4" type="video/mp4" />
-            Your browser does not support embedded video.
-          </video>
-        </div>
-      </article>
-
-      <article class="category-block">
-        <div class="category-copy">
-          <h3>Escape Room Puzzles</h3>
-          <p>Interactive prop systems and puzzle hardware with visual storytelling and practical reset flow.</p>
-        </div>
-        <div class="category-media-grid">
-          <a href="assets/images/escape-1.jpg" data-lightbox><img src="assets/images/escape-1.jpg" alt="Escape puzzle image 1" loading="lazy" /></a>
-          <a href="assets/images/chriss-1.jpg" data-lightbox><img src="assets/images/chriss-1.jpg" alt="Escape puzzle image 2" loading="lazy" /></a>
-          <a href="assets/images/chriss-4.jpg" data-lightbox><img src="assets/images/chriss-4.jpg" alt="Escape puzzle image 3" loading="lazy" /></a>
-        </div>
-        <div class="category-video film-frame">
-          <video class="feature-video" controls playsinline poster="assets/images/escape-2.jpg">
-            <source src="assets/videos/escape-puzzle.mov" type="video/quicktime" />
-            Your browser does not support embedded video.
-          </video>
-        </div>
-      </article>
-
-      <article class="category-block">
-        <div class="category-copy">
-          <h3>Custom Paint and Textures</h3>
-          <p>Aging treatments, scenic texture layers, and finish passes tailored for close-up visual impact.</p>
-        </div>
-        <div class="category-media-grid">
-          <a href="assets/images/texture-a.jpg" data-lightbox><img src="assets/images/texture-a.jpg" alt="Custom paint and texture image 1" loading="lazy" /></a>
-          <a href="assets/images/texture-b.jpg" data-lightbox><img src="assets/images/texture-b.jpg" alt="Custom paint and texture image 2" loading="lazy" /></a>
-          <a href="assets/images/texture-c.jpg" data-lightbox><img src="assets/images/texture-c.jpg" alt="Custom paint and texture image 3" loading="lazy" /></a>
-          <a href="assets/images/texture-d.jpg" data-lightbox><img src="assets/images/texture-d.jpg" alt="Custom paint and texture image 4" loading="lazy" /></a>
-          <a href="assets/images/texture-e.jpg" data-lightbox><img src="assets/images/texture-e.jpg" alt="Custom paint and texture image 5" loading="lazy" /></a>
-        </div>
-      </article>
-    </section>
-
-    <section class="section process">
+    <section id="how-we-build" class="section process">
       <div class="section-head">
         <h2 class="section-title">How we build</h2>
-        <p class="section-lede">A simple, contractor-friendly pipeline that keeps creative quality and production timing aligned.</p>
+        <p class="section-lede">A straightforward pipeline that keeps creative goals, fabrication quality, and your event calendar aligned.</p>
       </div>
       <div class="process-grid">
         <article class="process-card">
           <p class="process-step">01</p>
           <h3>Creative Direction</h3>
-          <p>Mood, story, and scene goals are mapped to audience, venue, and event timeline.</p>
+          <p>Mood, story, and scene goals mapped to audience, venue layout, and run-of-show — including sightlines, audio, and lighting hooks.</p>
         </article>
         <article class="process-card">
           <p class="process-step">02</p>
           <h3>Fabrication &amp; Prep</h3>
-          <p>Build components are developed for visual impact, durability, and install practicality.</p>
+          <p>Components built for guest impact, crew safety, and practical load-in — with shop testing before anything ships.</p>
         </article>
         <article class="process-card">
           <p class="process-step">03</p>
           <h3>Install &amp; Showtime</h3>
-          <p>On-site setup and final polish to ensure scenes read correctly for guests and camera.</p>
+          <p>On-site assembly, final dressing, and timing passes so each room reads the way you intended under show conditions.</p>
         </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section split">
-      <div class="split-copy">
-        <h2 class="section-title">Featured build direction</h2>
-        <p class="section-lede">
-          A proven scenic direction combining visual impact, practical installation flow, and durable fabrication.
-        </p>
-        <ul class="feature-list">
-          <li>Large-scale scenic entrance with integrated lighting</li>
-          <li>Mid-route animatronic reveal with controlled sightline</li>
-          <li>Modular pieces designed for quick strike and storage</li>
-        </ul>
-      </div>
-      <div class="split-visual">
-        <figure class="frame">
-          <img src="assets/images/experience-1.jpg" alt="Featured scenic build from portfolio" width="900" height="1100" loading="lazy" />
-          <figcaption class="caption">Featured fabrication and installation detail.</figcaption>
-        </figure>
       </div>
     </section>
 
     <section id="videos" class="section film">
       <div class="section-head">
         <h2 class="section-title">Videos</h2>
-        <p class="section-lede">Trailer-style cuts and behind-the-build clips help decision makers understand production quality fast.</p>
+        <p class="section-lede">Trailer-style cuts and build clips so you can judge pacing, finish quality, and how scenes move in real space.</p>
       </div>
       <div class="video-grid">
         <div class="film-frame">
@@ -254,10 +168,147 @@
       </div>
     </section>
 
+    <section class="section category-showcase">
+      <div class="section-head">
+        <h2 class="section-title">Featured build categories</h2>
+        <p class="section-lede">A closer look at the kinds of work we take on — with photos, video where available, and how to reach us about each type of project.</p>
+      </div>
+
+      <article class="category-block">
+        <div class="category-copy">
+          <h3>Outdoor sets &amp; facades</h3>
+          <p>Exterior scenery and queue-facing builds that establish the story before guests step inside — strong silhouettes, readable lighting, and materials chosen for your climate and run length.</p>
+          <ul class="category-points">
+            <li>Entrance pieces, barns, cemetery walls, and queue architecture</li>
+            <li>Wind and rain considerations for Southern California installs</li>
+            <li>Coordination with fire lanes, ADA paths, and crowd flow</li>
+          </ul>
+        </div>
+        <div class="category-media-grid">
+          <a href="assets/images/experience-1.jpg" data-lightbox><img src="assets/images/experience-1.jpg" alt="Outdoor scenic facade detail" loading="lazy" /></a>
+          <a href="assets/images/gallery-05.jpg" data-lightbox><img src="assets/images/gallery-05.jpg" alt="Outdoor set environment" loading="lazy" /></a>
+          <a href="assets/images/gallery-09.jpg" data-lightbox><img src="assets/images/gallery-09.jpg" alt="Exterior scenic build" loading="lazy" /></a>
+        </div>
+        <p class="category-cta"><a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Outdoor%20%2F%20facade%20build%20-%20Straite%20to%20Hale">Email about outdoor builds</a></p>
+      </article>
+
+      <article class="category-block">
+        <div class="category-copy">
+          <h3>Indoor sets</h3>
+          <p>Interior walkthrough spaces with layered props, wall treatments, and ceiling work — built so actors, tech, and operations all have workable space.</p>
+          <ul class="category-points">
+            <li>Room-to-room story beats and scare timing</li>
+            <li>Hidden actor pockets, pass doors, and maintenance access</li>
+            <li>Integration with fog, strobes, and show control where you need it</li>
+          </ul>
+        </div>
+        <div class="category-media-grid">
+          <a href="assets/images/indoor-1.jpg" data-lightbox><img src="assets/images/indoor-1.jpg" alt="Indoor set image 1" loading="lazy" /></a>
+          <a href="assets/images/indoor-2.jpg" data-lightbox><img src="assets/images/indoor-2.jpg" alt="Indoor set image 2" loading="lazy" /></a>
+          <a href="assets/images/indoor-3.jpg" data-lightbox><img src="assets/images/indoor-3.jpg" alt="Indoor set image 3" loading="lazy" /></a>
+        </div>
+        <div class="category-video film-frame">
+          <video class="feature-video" controls playsinline poster="assets/images/indoor-2.jpg">
+            <source src="assets/videos/indoor-sets.mp4" type="video/mp4" />
+            Your browser does not support embedded video.
+          </video>
+        </div>
+        <p class="category-cta"><a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Indoor%20set%20build%20-%20Straite%20to%20Hale">Email about indoor sets</a></p>
+      </article>
+
+      <article class="category-block">
+        <div class="category-copy">
+          <h3>Escape room puzzles</h3>
+          <p>Physical puzzle beats and themed props that support your narrative — with an eye toward durability, staff reset, and guest clarity.</p>
+          <ul class="category-points">
+            <li>Magnetic locks, sensors, and simple automation tied to story</li>
+            <li>Hand-built housings that match your set dressing</li>
+            <li>Documentation for your game master team</li>
+          </ul>
+        </div>
+        <div class="category-media-grid">
+          <a href="assets/images/escape-1.jpg" data-lightbox><img src="assets/images/escape-1.jpg" alt="Escape puzzle image 1" loading="lazy" /></a>
+          <a href="assets/images/chriss-1.jpg" data-lightbox><img src="assets/images/chriss-1.jpg" alt="Escape puzzle image 2" loading="lazy" /></a>
+          <a href="assets/images/chriss-4.jpg" data-lightbox><img src="assets/images/chriss-4.jpg" alt="Escape puzzle image 3" loading="lazy" /></a>
+        </div>
+        <div class="category-video film-frame">
+          <video class="feature-video" controls playsinline poster="assets/images/escape-2.jpg">
+            <source src="assets/videos/escape-puzzle.mov" type="video/quicktime" />
+            Your browser does not support embedded video.
+          </video>
+        </div>
+        <p class="category-cta"><a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Escape%20room%20puzzle%20build%20-%20Straite%20to%20Hale">Email about escape puzzles</a></p>
+      </article>
+
+      <article class="category-block">
+        <div class="category-copy">
+          <h3>Animatronics &amp; character gags</h3>
+          <p>Motion moments and figure work that support a scare or story beat — tuned for repeat cycles, easy maintenance, and safe guest clearance.</p>
+          <ul class="category-points">
+            <li>Simple pneumatic or motor-driven reveals where appropriate</li>
+            <li>Sculpted surfaces and costuming continuity with the room</li>
+            <li>Collaboration with your tech team on triggers and timing</li>
+          </ul>
+        </div>
+        <div class="category-media-grid">
+          <a href="assets/images/chriss-5.jpg" data-lightbox><img src="assets/images/chriss-5.jpg" alt="Animatronic character build" loading="lazy" /></a>
+          <a href="assets/images/chriss-6.jpg" data-lightbox><img src="assets/images/chriss-6.jpg" alt="Character scenic detail" loading="lazy" /></a>
+          <a href="assets/images/gallery-01.jpg" data-lightbox><img src="assets/images/gallery-01.jpg" alt="Themed character environment" loading="lazy" /></a>
+        </div>
+        <div class="category-video film-frame">
+          <video class="feature-video" controls playsinline poster="assets/images/chriss-5.jpg">
+            <source src="assets/videos/highlight.mp4" type="video/mp4" />
+            Your browser does not support embedded video.
+          </video>
+        </div>
+        <p class="category-cta"><a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Animatronic%20%2F%20character%20gag%20-%20Straite%20to%20Hale">Email about animatronics</a></p>
+      </article>
+
+      <article class="category-block">
+        <div class="category-copy">
+          <h3>Custom paint and textures</h3>
+          <p>Finish passes that sell the age, material, and mood of a space — from stone and plaster to rusted metal and organic decay.</p>
+          <ul class="category-points">
+            <li>Close-up treatments for narrow corridors and photo ops</li>
+            <li>Color keys matched to your reference and lighting plan</li>
+            <li>Touch-up kits for mid-season repairs</li>
+          </ul>
+        </div>
+        <div class="category-media-grid">
+          <a href="assets/images/texture-a.jpg" data-lightbox><img src="assets/images/texture-a.jpg" alt="Custom paint and texture image 1" loading="lazy" /></a>
+          <a href="assets/images/texture-b.jpg" data-lightbox><img src="assets/images/texture-b.jpg" alt="Custom paint and texture image 2" loading="lazy" /></a>
+          <a href="assets/images/texture-c.jpg" data-lightbox><img src="assets/images/texture-c.jpg" alt="Custom paint and texture image 3" loading="lazy" /></a>
+          <a href="assets/images/texture-d.jpg" data-lightbox><img src="assets/images/texture-d.jpg" alt="Custom paint and texture image 4" loading="lazy" /></a>
+          <a href="assets/images/texture-e.jpg" data-lightbox><img src="assets/images/texture-e.jpg" alt="Custom paint and texture image 5" loading="lazy" /></a>
+        </div>
+        <p class="category-cta"><a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Paint%20%26%20texture%20work%20-%20Straite%20to%20Hale">Email about textures &amp; paint</a></p>
+      </article>
+    </section>
+
+    <section id="projects" class="section split">
+      <div class="split-copy">
+        <h2 class="section-title">Featured build direction</h2>
+        <p class="section-lede">
+          A proven scenic approach that balances guest impact, install reality, and durability across a full season.
+        </p>
+        <ul class="feature-list">
+          <li>Large-scale scenic entrances with integrated lighting</li>
+          <li>Mid-route animatronic reveals with controlled sightlines</li>
+          <li>Modular pieces designed for quick strike and storage</li>
+        </ul>
+      </div>
+      <div class="split-visual">
+        <figure class="frame">
+          <img src="assets/images/experience-1.jpg" alt="Featured scenic build from portfolio" width="900" height="1100" loading="lazy" />
+          <figcaption class="caption">Featured fabrication and installation detail.</figcaption>
+        </figure>
+      </div>
+    </section>
+
     <section id="photos" class="section gallery-section">
       <div class="section-head">
-        <h2 class="section-title">Photo Highlights</h2>
-        <p class="section-lede">A quick look at recent scenic work. Open the full archive to browse all photos.</p>
+        <h2 class="section-title">Photo highlights</h2>
+        <p class="section-lede">A quick look at recent scenic work. Open the full archive for every category and more angles.</p>
       </div>
       <div class="gallery-grid teaser-grid" data-lightbox-root>
         <a class="gallery-item" href="assets/images/gallery-01.jpg" data-lightbox>
@@ -286,7 +337,8 @@
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-primary" href="photos.html">View Full Photo Archive</a>
+        <a class="btn btn-primary" href="photos.html">View full photo archive</a>
+        <a class="btn btn-ghost" href="mailto:Straitetohale@yahoo.com?subject=Photo%20reference%20request%20-%20Straite%20to%20Hale">Ask about a specific build</a>
       </div>
     </section>
 
@@ -294,7 +346,7 @@
       <div class="split-copy">
         <h2 class="section-title">QR to product page flow</h2>
         <p class="section-lede">
-          This gives you a working path for props on display: scan QR, open product details, choose options, submit order.
+          A working path for props on display: scan QR, open product details, choose options, submit order.
         </p>
         <ul class="feature-list">
           <li>Secondary listing page: <a href="for-sale.html">for-sale.html</a></li>
@@ -317,26 +369,26 @@
     <section class="section testimonials">
       <div class="section-head">
         <h2 class="section-title">What clients value</h2>
-        <p class="section-lede">Clients choose Straite to Hale for execution quality, responsiveness, and memorable guest impact.</p>
+        <p class="section-lede">Teams choose Straite to Hale for build quality, clear communication, and memorable guest impact.</p>
       </div>
       <div class="testimonial-grid">
         <blockquote class="testimonial">
           <p>"They transformed rough ideas into a full environment that delivered real guest reactions."</p>
-          <cite>Attraction Partner</cite>
+          <cite>Attraction partner</cite>
         </blockquote>
         <blockquote class="testimonial">
           <p>"Professional from concept through install, with clear communication on scope and timeline."</p>
-          <cite>Event Producer</cite>
+          <cite>Event producer</cite>
         </blockquote>
         <blockquote class="testimonial">
           <p>"Build quality held up under heavy traffic and still looked cinematic for content capture."</p>
-          <cite>Creative Director</cite>
+          <cite>Creative director</cite>
         </blockquote>
       </div>
     </section>
 
     <section class="section warning-panel">
-      <h2 class="section-title">Guest Experience &amp; Safety Note</h2>
+      <h2 class="section-title">Guest experience &amp; safety note</h2>
       <p>
         Some builds may include intense audio, low visibility, dynamic lighting effects, or sudden motion moments.
         Final event safety guidelines should be posted at point of entry and ticket flow areas.
@@ -367,7 +419,7 @@
     <section id="contact" class="section visit">
       <div class="visit-card">
         <h2 class="section-title">Contact</h2>
-        <p class="section-lede">Ready for quote requests now, while custom item checkout scales from email flow to full e-commerce.</p>
+        <p class="section-lede">Quote requests and scheduling — custom checkout can grow from email flow to full e-commerce when you are ready.</p>
         <dl class="visit-details">
           <div>
             <dt>Email</dt>
@@ -386,8 +438,8 @@
             </dd>
           </div>
           <div>
-            <dt>Response Time</dt>
-            <dd>Within 1-2 business days</dd>
+            <dt>Response time</dt>
+            <dd>Within 1–2 business days</dd>
           </div>
         </dl>
         <a class="btn btn-primary visit-cta" href="mailto:Straitetohale@yahoo.com?subject=Quote%20Request%20-%20Straite%20to%20Hale">Request quote</a>
@@ -397,12 +449,12 @@
 
   <footer class="site-footer">
     <p>&copy; <span id="year"></span> Straite to Hale Productions.</p>
-    <p class="footer-note">Custom set design, fabrication, and immersive attraction environments.</p>
+    <p class="footer-note">Turning your dreams and nightmares into reality — custom set design, fabrication, and immersive attraction environments.</p>
   </footer>
 
   <div class="floating-actions" aria-label="Quick actions">
-    <a class="btn btn-primary" href="mailto:Straitetohale@yahoo.com?subject=Quick%20Quote%20Request">Quick Quote</a>
-    <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=618+E+A+St,+Upland,+CA+91786" target="_blank" rel="noopener noreferrer">Open Maps</a>
+    <a class="btn btn-primary" href="mailto:Straitetohale@yahoo.com?subject=Quick%20Quote%20Request">Quick quote</a>
+    <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=618+E+A+St,+Upland,+CA+91786" target="_blank" rel="noopener noreferrer">Open maps</a>
   </div>
 
   <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">Top</button>
